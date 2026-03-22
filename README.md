@@ -9,6 +9,24 @@ Use node LTS version `nvm use --lts`
 ### Install Git
 https://git-scm.com/install/linux
 
+## Using this project
+In order to run the npm commands, you need to tell node which version should be used
+In the root of the project run: `nvm use` or `nvm use --lts`
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+
 ## Project creation process
  - Created repository in github: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
  - Created project using: `npx create-react-app frontend_training`
@@ -24,20 +42,3 @@ https://git-scm.com/install/linux
  - Add local changes to branch `git add *`
  - Commit the changes `git commit -m "COMMIT_MESSAGE"`
  - Push local changes to remote `git push`
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
