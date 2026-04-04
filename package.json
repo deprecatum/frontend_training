@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "next": "^16.2.2",
     "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "react-scripts": "5.0.1"
+    "react-dom": "19.2.4"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "next dev",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -26,5 +28,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@eslint/css": "^1.1.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.4.0",
+    "typescript-eslint": "^8.58.0",
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "typescript": "5.1.6"
   }
 }

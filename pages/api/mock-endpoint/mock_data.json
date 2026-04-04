@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "brand": "BMW",
+        "model": "X5",
+        "year": 2020,
+        "color": "Red",
+        "price": 25000
+    },
+    {
+        "id": 2,
+        "brand": "Mercedes",
+        "model": "C-Class",
+        "year": 2020,
+        "color": "Blue",
+        "price": 30000
+    },
+    {
+        "id": 3,
+        "brand": "Audi",
+        "model": "A4",
+        "year": 2020,
+        "color": "Black",
+        "price": 35000
+    }
+]
