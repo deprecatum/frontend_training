@@ -2,20 +2,16 @@ import './homepage.css';
 
 export function Homepage() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="logo192.png" className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="homepage">
+      <header className='header'>
+        <img src="logo192.png" className="logo" alt="logo" />
+        <div className='container'>
+          <div>Item 1</div>
+          <div>Item 2</div>
+          <div>Item 3</div>
+          <div>Item 4</div>
+          <div>Item 5</div>
+        </div>
       </header>
     </div>
   );
