@@ -18,11 +18,22 @@
   min-height: 20px;
   max-height: 45px;
   display: flex;
-  align-items: left;
+  flex-direction: row;
+  align-items: row;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ffffff;
+  justify-content: space-between;
 }
-
+.App-items {
+  display: flex;
+  flex-direction: row;
+  align-items: row;
+  width: 100%;
+}
+.App-items div {
+  margin-right: 20px;
+  margin-left: 20px;
+}
 .App-link {
   color: #61dafb;
 }
